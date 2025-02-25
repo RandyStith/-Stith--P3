@@ -36,7 +36,7 @@ const vue_app = Vue.createApp({
             
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: "IMDB + Randy's Top 8 Movies",
-            owner: "Randy",
+            owner: "Randy S",
             github: "https://github.com/RandyStith/-Stith--P3"
       }
     },
@@ -49,7 +49,7 @@ const vue_app = Vue.createApp({
            },
            posterClick(index){
             const movie = this.movies[index];
-            movie.posterindex = (movie.posterindex + 1) % movie.post
+            movie.posterindex = (movie.posterindex + 1) % movie.posters.length;
            },
            timeText(minutes){
             const hours = Math.trunc(minutes / 60)

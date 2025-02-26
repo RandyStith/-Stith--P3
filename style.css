@@ -30,13 +30,13 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 0;
-    background-color:#dddddd;
+    background-color:#c1f8c1;
 }
 .thumbnail img {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px;
-    border: 2px dashed black;
+    border: 2px dashed rgb(139, 80, 127);
 }
 
 /* This stylizes your "Poster X of Y" text */
@@ -65,7 +65,7 @@ body {
 
 /* This shapes your IMDB score area */
 .score {
-    background-color: #39D1B4;
+    background-color: #39a1d1;
     color: #fff;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
